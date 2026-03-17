@@ -9,6 +9,8 @@ def main():
     b = float(sys.argv[3])
 
 
+def subtract(a, b):
+    return a - b
 
 if __name__ == "__main__":
     main()
