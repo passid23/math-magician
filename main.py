@@ -9,6 +9,10 @@ def main():
     b = float(sys.argv[3])
 
 
+def divise(a, b):
+    if b == 0:
+        print("doesnt work")
+    return a / b    
 
 if __name__ == "__main__":
     main()
